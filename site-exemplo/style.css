@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#barra {
+    background-color: blue;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+}
