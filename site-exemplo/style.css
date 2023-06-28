@@ -1,8 +1,43 @@
 @charset "UTF-8";
 
-#barra {
-    background-color: blue;
-    width: 150px;
+div {
+    background-color: tomato;
+
+    & #butao {
+        color: palevioletred;
+        background-color: yellow;
+    }
+
+}
+
+
+
+
+#forma {
+    background-color: dimgray;
+    padding: 30px;
+    width: 250px;
+    color: white;
+    border-radius: 8px;
+}
+
+.email {
+    height: 30px;
+    width: 230px;
     border-radius: 5px;
+    box-shadow: none;
+}
+
+#butao {
+    background-color: rgb(182, 178, 178);
+    margin-top: 10px;
+    color: black;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+#butao:hover {
+
+    background-color: black;
     color: white;
 }
